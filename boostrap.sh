@@ -73,5 +73,8 @@ mv $PREFIX/share/kvantum/* $PREFIX/share/Kvantum
 
 echo -e """\e[1;32menjoy!!
 To start the vnc server, use the command: vncserver to stop it, use the command: vncserver -kill: 1 Replace the: 1 with the port on which the vnc service is running\e[1m"""
+rm termux-desktop-xfce_5.0.3_all.deb
+rm ttf-microsoft-cascadia_4.0.2.all.deb
+rm breeze-cursor-theme_5.20.5-4_all.deb
 pkg clean
 exit
